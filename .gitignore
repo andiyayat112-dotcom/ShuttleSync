@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.npm
+.env
+.env.local
+.env.*.local
+
+# Production
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.sql
+!schema.sql
+
+# OS
+Thumbs.db
+.DS_Store
